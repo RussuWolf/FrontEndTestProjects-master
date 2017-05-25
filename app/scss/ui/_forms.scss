@@ -1,0 +1,114 @@
+// ***********************************
+// FORMS
+// ***********************************
+
+input,
+select {
+ /* Corrects font size not being inherited in all browsers */
+    margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
+    vertical-align: baseline; /* Improves appearance and consistency in all browsers */
+    border: none;
+    padding: 0;
+    &:focus {
+        outline: none;
+    }
+}
+
+////////////////////email//////////////////
+
+input[type='email'] {
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+    line-height: 1.667;
+    background-color: transparent;
+    width: 226px; 
+}
+
+::-webkit-input-placeholder {
+    color:#fff;
+    text-transform: uppercase;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+::-moz-placeholder          {
+    color:#fff;
+    text-transform: uppercase;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+    }/* Firefox 19+ */
+:-moz-placeholder           {
+    color:#fff;
+    text-transform: uppercase;
+    opacity: 1;
+     transition: opacity 0.3s ease;
+    }/* Firefox 18- */
+:-ms-input-placeholder      {
+    color:#fff;
+    text-transform: uppercase;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+}
+input[type='submit'] {
+    background: url(../img/right.png) no-repeat;
+    border: none;
+    width: 20px;
+    vertical-align: middle;
+}
+
+select {
+    border: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+input[type="color"]{
+	border: none;
+	background: none;
+	padding: 0;	
+}
+
+////////////////////////Search/////////////////////////////
+
+input[type='search'] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing:    content-box;
+    box-sizing:         content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+
+}
+input[type='search'] {
+    background: url(../img/search.png) no-repeat 0 center;
+    width: 15px;
+    padding: 2px;
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+input[type='search']:hover {
+    background-color: #fff;
+}
+input[type='search']:focus {
+    width: 130px;
+    border-color: #6dcff6;
+    padding-left: 30px;
+    cursor: auto;
+    -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    box-shadow: 0 0 5px rgba(109,207,246,.5); 
+}
+input[type="search"]::-webkit-search-decoration { 
+    -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner { 
+    border: 0;
+    padding: 0;
+}

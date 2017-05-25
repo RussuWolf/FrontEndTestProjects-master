@@ -1,0 +1,92 @@
+width:
+
+wrapper size 1440px
+
+container 1140px
+
+height:
+header 144px
+menu-top 43px
+menu-bottom 101px
+
+
+
+main section 1247px
+subscribe section 287px
+
+text :
+header:
+C&B [Didot] bold
+Help 11px 
+Delivery
+dollars
+your bag
+En
+contact
+Sale
+About
+News
+Catalog pt 100px
+Home
+2
+
+Products:
+Load More...
+T-shirts
+All
+sweaters
+Shorts
+ ACCESSOIRES
+ jackets
+
+ Catalog 58px [PlayfairDisplay] Regular
+
+ Printed swimsuit
+ $23 
+ Long sleeved twill shirt
+ $20
+ Bleached shorts
+ $12
+ Black sunglasses 
+ $29
+ Jogging bermuda shorts
+ $12 
+ $36
+ T-shirt with lower panel 16px [PlayfairDisplay] Regular lh20px
+ $32 [Lato] Regular
+ $12
+ Basic swimsuit
+ $36
+ Basic beach flip flops 
+ $9
+ New
+
+ img w 262px h 336px p30px pb 104px
+
+ 197px
+
+ subscribe: 
+ height 287px
+ Your Email Address lh 20px
+ Stay updated on news [PlayfairDisplay] Regular 38px
+ Subscribe
+
+ button h48px w300px
+
+ footer:
+ height 132px 101px 31px
+menu [Lato] [Bold] 12px
+logo [Didot][Bold]
+
+
+ Contact
+ About
+ Sale
+ news
+ Catalog
+ Home
+ ©2010 - 2016 All rights reserved pt46px pb46px
+
+ bg #fff;
+ $blue: #1c82d8; 1274d3;
+ $black: #333333;

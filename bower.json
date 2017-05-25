@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "description": "Eleken Frontend Test Projects ===",
+  "main": "gulpfile.js",
+  "authors": [
+    "Russu Peter <russu.pw@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "components-font-awesome": "^4.7.0"
+  }
+}
