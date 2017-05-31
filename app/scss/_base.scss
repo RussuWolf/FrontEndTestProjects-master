@@ -66,7 +66,6 @@ body {
 	justify-content: space-between;
 	flex-direction: row;
 	display: flex;
-	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -115,6 +114,25 @@ body {
 	width: 55%;
 	ul {
 		margin: auto 0;
+	}
+	a {
+		position: relative;
+		&:after {
+			position: absolute;
+			content: ""; 
+			width: 100%;
+			left: 0;
+			height: 0;
+			display: inline-block;
+			background-color: $blue;
+		}
+		&:hover {
+			&:after {
+				bottom: -7px;
+				height: 2px;
+			}	
+
+		}
 	}
 	span {
 		color: $red;
