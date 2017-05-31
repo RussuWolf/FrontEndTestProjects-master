@@ -315,13 +315,14 @@ footer {
 			margin: auto 0;
 		}
 		li {
+			margin-right: 55px;
 			font-weight: bold;
 			text-transform: uppercase;
+			&:last-child {
+				margin-right: 0;
+			}
 			a {
 				color: $black;
-				padding-right: 34px;
-
-
 			}
 
 		}

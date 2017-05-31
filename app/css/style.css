@@ -557,13 +557,17 @@ footer .menu ul {
 }
 
 footer .menu li {
+  margin-right: 55px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
+footer .menu li:last-child {
+  margin-right: 0;
+}
+
 footer .menu li a {
   color: #333333;
-  padding-right: 34px;
 }
 
 footer .menu_right {
