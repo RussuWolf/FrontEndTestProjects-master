@@ -216,6 +216,10 @@ body {
   clear: both;
 }
 
+.top_bar {
+  overflow: hidden;
+}
+
 .top_bar a {
   text-transform: uppercase;
   padding-right: 34px;
@@ -570,7 +574,7 @@ select:focus {
 }
 
 input[type='email'] {
-  font-size: 12px;
+  font-size: inherit;
   border: none;
   font-weight: bold;
   line-height: 1.667;
