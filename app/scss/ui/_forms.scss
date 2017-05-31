@@ -17,7 +17,6 @@ select {
 
 input[type='email'] {
     font-size: inherit;
-    border: none;
     font-weight: bold;
     line-height: 1.667;
     background-color: transparent;
@@ -56,7 +55,6 @@ input[type='submit'] {
 }
 
 select {
-    border: none;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -108,6 +106,5 @@ input[type="search"]::-webkit-search-decoration {
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner { 
-    border: 0;
     padding: 0;
 }

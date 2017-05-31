@@ -539,6 +539,9 @@ h1, h2, h3 {
 
 hr {
   margin: 0;
+  background-color: #b5b5b5;
+  height: 1px;
+  border: none;
 }
 
 select {
@@ -575,7 +578,6 @@ select:focus {
 
 input[type='email'] {
   font-size: inherit;
-  border: none;
   font-weight: bold;
   line-height: 1.667;
   background-color: transparent;
@@ -620,7 +622,6 @@ input[type='submit'] {
 }
 
 select {
-  border: none;
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -670,7 +671,6 @@ input[type="search"]::-webkit-search-decoration {
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-  border: 0;
   padding: 0;
 }
 

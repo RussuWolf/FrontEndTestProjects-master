@@ -24,6 +24,9 @@ h1, h2, h3 {
 }
 hr {
 	margin: 0;
+	background-color: $grey-text;
+	height: 1px;
+	border: none;
 }
 select {
 	font-size: 11px;
