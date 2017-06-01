@@ -188,6 +188,7 @@ body {
   font-family: 'lato', sans-serif;
   font-size: 12px;
   color: #b5b5b5;
+  font-weight: bold;
 }
 
 .wrapper {
@@ -219,8 +220,6 @@ body {
 .top_bar {
   overflow: hidden;
   font-size: 0.9166em;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 .top_bar a {
@@ -281,7 +280,6 @@ body {
   flex-direction: row;
   display: -ms-flexbox;
   display: flex;
-  text-transform: uppercase;
   font-weight: bold;
 }
 
@@ -319,7 +317,7 @@ body {
 .basket {
   width: 4em;
   height: 4em;
-  border: 2px solid blue;
+  border: 2px solid #1274d3;
   border-radius: 50%;
   margin-right: 0.9166em;
   margin-left: 0.9166em;
@@ -377,24 +375,24 @@ body {
 }
 
 .products {
-  margin-top: 82px;
-  margin-bottom: 57px;
+  margin-bottom: 4.75em;
 }
 
 .products h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 58px;
+  font-size: 4.833em;
   text-align: center;
-  margin-bottom: 53px;
+  margin-top: 1.413em;
+  margin-bottom: 0.914em;
 }
 
 .products ul {
   text-align: center;
-  margin-bottom: 47px;
+  margin-bottom: 3.916em;
 }
 
 .products ul li {
-  margin-right: 55px;
+  margin-right: 4.583em;
 }
 
 .products ul li:last-child {
@@ -402,7 +400,6 @@ body {
 }
 
 .products ul a {
-  text-transform: uppercase;
   font-weight: bold;
   position: relative;
 }
@@ -432,8 +429,8 @@ body {
 
 .product_list .product_list_item {
   float: left;
-  margin-right: 30px;
-  margin-bottom: 35px;
+  margin-right: 2.5em;
+  margin-bottom: 2.917em;
 }
 
 .product_list .product_list_item:nth-child(4n) {
@@ -450,10 +447,13 @@ body {
 }
 
 .product_list .product_list_item h2 {
-  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.333em;
+  text-transform: none;
+  font-weight: normal;
   line-height: 1.25;
   text-align: center;
-  margin-top: 22px;
+  margin-top: 1.375em;
 }
 
 .product_list .product_list_item img {
@@ -464,10 +464,9 @@ body {
 .product_list .product_list_item .price_box {
   width: 100%;
   text-align: center;
-  font-family: 'lato', serif;
-  font-size: 16px;
+  font-size: 1.333em;
   line-height: 1.25;
-  margin-top: 5px;
+  margin-top: 0.375em;
 }
 
 .product_list .product_list_item .price_box .regular-price {
@@ -476,21 +475,21 @@ body {
 
 .new_product {
   position: absolute;
-  top: 26px;
-  left: 26px;
+  top: 2.364em;
+  left: 2.364em;
   background: #1274d3;
   color: #fff;
-  width: 43px;
+  width: 3.909em;
   padding: 2.5px;
-  font-size: 11px;
+  font-size: 0.917em;
   line-height: 1.8182;
-  border-radius: 25px;
+  border-radius: 2.273em;
   text-align: center;
 }
 
 .sale_price {
-  color: red;
-  margin-left: 12px;
+  color: #fc411d;
+  margin-left: 1em;
 }
 
 .last_price {
@@ -506,23 +505,19 @@ body {
 
 .subscribe .subscribe_wrapper {
   text-align: center;
-  padding: 68px 0 70px;
+  padding: 5.666em 0 5.833em;
 }
 
 .subscribe .subscribe_wrapper a {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: 'lato', sans-serif;
-  font-size: 12px;
   color: #333333;
 }
 
 .subscribe .subscribe_wrapper h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 38px;
+  font-size: 3.166em;
   color: #fff;
-  margin-top: 18px;
-  margin-bottom: 29px;
+  margin-top: 0.474em;
+  margin-bottom: 0.763em;
   line-height: 1;
 }
 
@@ -541,13 +536,13 @@ body {
 }
 
 footer {
-  padding-bottom: 32px;
+  padding-bottom: 2.666em;
 }
 
 footer .menu {
   display: -ms-flexbox;
   display: flex;
-  height: 100px;
+  height: 8.333em;
   -ms-flex-pack: center;
   justify-content: center;
   width: 62%;
@@ -559,9 +554,7 @@ footer .menu ul {
 }
 
 footer .menu li {
-  margin-right: 55px;
-  font-weight: bold;
-  text-transform: uppercase;
+  margin-right: 4.583em;
 }
 
 footer .menu li:last-child {
@@ -580,13 +573,13 @@ footer .menu_right {
   width: 20%;
   display: -ms-flexbox;
   display: flex;
-  height: 100px;
+  height: 8.333em;
 }
 
-footer a {
+footer .menu_right a {
   text-align: right;
-  text-transform: uppercase;
   margin: auto 0;
+  text-transform: none;
 }
 
 ul {
@@ -606,6 +599,7 @@ li {
 
 a {
   text-decoration: none;
+  text-transform: uppercase;
   color: #b5b5b5;
 }
 
@@ -628,14 +622,12 @@ select {
 
 .load_link {
   text-align: center;
-  margin-top: 19px;
+  margin-top: 1.75em;
 }
 
 .load_link a {
   font-weight: bold;
   text-transform: uppercase;
-  font-family: 'lato', sans-serif;
-  font-size: 12px;
 }
 
 input,

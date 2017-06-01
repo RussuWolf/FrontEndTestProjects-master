@@ -3,6 +3,7 @@ body {
 	font-family: 'lato', sans-serif;
 	font-size: 12px;
 	color: $grey-text;
+	font-weight: bold;
 }
 // ***********************************
 // PAGE STRUCTURE
@@ -19,8 +20,6 @@ body {
 .top_bar {
 	overflow: hidden;
 	font-size: 0.9166em;
-	text-transform: uppercase;
-	font-weight: bold;
 	a {
 		margin-right: 3.091em;	
 	}
@@ -66,7 +65,6 @@ body {
 	justify-content: space-between;
 	flex-direction: row;
 	display: flex;
-	text-transform: uppercase;
 	font-weight: bold;
 }
 .logo, .main, .main_right {
@@ -98,7 +96,7 @@ body {
 .basket {
 	width: 4em;
 	height: 4em;
-	border: 2px solid blue;
+	border: 2px solid $blue;
 	border-radius: 50%;
 	margin-right: 0.9166em;
 	margin-left: 0.9166em;
@@ -147,26 +145,24 @@ body {
 }
 
 .products {
-	margin-top: 82px;
-	margin-bottom: 57px;
+	margin-bottom: 4.75em;
 	h1 {
 		font-family: 'Playfair Display', serif;
-		font-size: 58px;
+		font-size: 4.833em;
 		text-align: center;
-		
-		margin-bottom: 53px;
+		margin-top: 1.413em;
+		margin-bottom: 0.914em;
 	}
 	ul {
 		text-align: center;
-		margin-bottom: 47px;
+		margin-bottom: 3.916em;
 		li {
-			margin-right: 55px;
+			margin-right: 4.583em;
 			&:last-child {
 				margin-right: 0;
 			}
 		}
 		a {
-			text-transform: uppercase;
 			font-weight: bold;
 			position: relative;
 		&:after {
@@ -197,8 +193,8 @@ body {
 	overflow: hidden;
 	.product_list_item {
 		float: left;
-		margin-right: 30px;
-		margin-bottom: 35px;
+		margin-right: 2.5em;
+		margin-bottom: 2.917em;
 		&:nth-child(4n) {
 			margin: 0;
 		}
@@ -210,10 +206,13 @@ body {
 			width: 100%;
 		}
 		h2 {
-			font-size: 16px;
+			font-family: 'Playfair Display', serif;
+			font-size: 1.333em;
+			text-transform: none;
+			font-weight: normal;
 			line-height: 1.25;
 			text-align: center;
-			margin-top: 22px;
+			margin-top: 1.375em;
 		}
 		img {
 			height: auto;
@@ -222,10 +221,9 @@ body {
 		.price_box {
 			width: 100%;
 			text-align: center;
-			font-family: 'lato', serif;
-			font-size: 16px;
+			font-size: 1.333em;
 			line-height: 1.25;
-			margin-top: 5px;
+			margin-top: 0.375em;
 			.regular-price {
 				display: inline-block;
 			}
@@ -235,20 +233,20 @@ body {
 }
 .new_product {
 	position: absolute;
-	top: 26px;
-	left: 26px;
+	top: 2.364em;
+	left: 2.364em;
 	background: $blue;
 	color: #fff;
-	width: 43px;
+	width: 3.909em;
 	padding: 2.5px;
-	font-size: 11px;
+	font-size: 0.917em;
 	line-height: 1.8182;
-	border-radius: 25px;
+	border-radius: 2.273em;
 	text-align: center;
 }
 .sale_price {
-	color: red;
-	margin-left: 12px;
+	color: $red;
+	margin-left: 1em;
 }
 .last_price {
 	color: inherit;
@@ -264,21 +262,17 @@ body {
 	
 	.subscribe_wrapper {
 		text-align: center;
-		padding: 68px 0 70px;
+		padding: 5.666em 0 5.833em;
 		a {
-			font-weight: bold;
-			text-transform: uppercase;
-			font-family: 'lato', sans-serif;
-			font-size: 12px;
 			color: $black;
 		}
 
 		h1 {
 			font-family: 'Playfair Display', serif;
-			font-size: 38px;
+			font-size: 3.166em;
 			color: $bg;
-			margin-top: 18px;
-			margin-bottom: 29px;
+			margin-top: 0.474em;
+			margin-bottom: 0.763em;
 			line-height: 1;
 		}
 		
@@ -298,10 +292,10 @@ body {
 	}
 }
 footer {
-	padding-bottom: 32px;
+	padding-bottom: 2.666em;
 	.menu {
 		display: flex;
-		height: 100px;
+		height: 8.333em;
 		justify-content: center;
 		width: 62%;
 		float: left;
@@ -310,9 +304,7 @@ footer {
 			margin: auto 0;
 		}
 		li {
-			margin-right: 55px;
-			font-weight: bold;
-			text-transform: uppercase;
+			margin-right: 4.583em;
 			&:last-child {
 				margin-right: 0;
 			}
@@ -328,11 +320,12 @@ footer {
 		float: left;
 		width: 20%;
 		display: flex;
-		height: 100px;
+		height: 8.333em;
+		a {
+			text-align: right;
+			margin: auto 0;
+			text-transform: none;
+		}
 	}
-	a {
-		text-align: right;
-		text-transform: uppercase;
-		margin: auto 0;
-	}
+
 }	

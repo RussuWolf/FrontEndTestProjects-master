@@ -15,6 +15,7 @@ li {
 }
 a {
 	text-decoration: none;
+	text-transform: uppercase;
 	color: $grey-text;
 
 }
@@ -34,11 +35,9 @@ select {
 }
 .load_link {
 	text-align: center;
-	margin-top: 19px;
+	margin-top: 1.75em;
 	a {
 		font-weight: bold;
 		text-transform: uppercase;
-		font-family: 'lato', sans-serif;
-		font-size: 12px;
 	}
 }
