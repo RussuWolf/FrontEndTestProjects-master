@@ -20,7 +20,7 @@ input[type='email'] {
     font-weight: bold;
     line-height: 1.667;
     background-color: transparent;
-    width: 226px; 
+    width: 248px; 
 }
 
 ::-webkit-input-placeholder {
@@ -50,7 +50,7 @@ input[type='email'] {
 input[type='submit'] {
     background: url(../img/right.png) no-repeat;
     border: none;
-    width: 20px;
+    width: 10px;
     vertical-align: middle;
 }
 
@@ -106,5 +106,6 @@ input[type="search"]::-webkit-search-decoration {
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner { 
+    border: 0;
     padding: 0;
 }

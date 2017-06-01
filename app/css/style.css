@@ -207,7 +207,7 @@ body {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 20px;
+  padding: 0 1.667em;
 }
 
 .container:after {
@@ -218,20 +218,20 @@ body {
 
 .top_bar {
   overflow: hidden;
+  font-size: 0.9166em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .top_bar a {
-  text-transform: uppercase;
-  margin-right: 34px;
-  font-size: 11px;
-  font-weight: bold;
+  margin-right: 3.091em;
 }
 
 .top_bar_right, .top_bar_left {
   width: 50%;
   display: -ms-flexbox;
   display: flex;
-  height: 43px;
+  height: 3.909em;
   float: left;
 }
 
@@ -247,31 +247,31 @@ body {
 
 .currency {
   background: url(../img/bottom-08.png) no-repeat right;
-  width: 75px;
+  width: 6.818em;
   overflow: hidden;
   position: relative;
 }
 
 .currency > select {
   background: transparent;
-  width: 115px;
+  width: 8.637em;
 }
 
 .border {
   border-right: 1px solid #b5b5b5;
-  margin: 0 20px;
+  margin: 0 1.818em;
 }
 
 .lang {
   background: url(../img/bottom-08.png) no-repeat right;
-  width: 50px;
+  width: 2.909em;
   overflow: hidden;
   position: relative;
 }
 
 .lang > select {
   background: transparent;
-  width: 50px;
+  width: 2.909em;
 }
 
 .main_menu {
@@ -288,27 +288,23 @@ body {
 .logo, .main, .main_right {
   display: -ms-flexbox;
   display: flex;
-  height: 100px;
+  height: 8.333em;
   float: left;
 }
 
 .logo, .main_right {
-  width: 16%;
-}
-
-.logo > span, .main_right > span {
-  font-size: 26px;
+  width: 18%;
 }
 
 .logo h2 {
   font-family: 'lato', serif;
   font-weight: bold;
-  font-size: 52px;
+  font-size: 4.333em;
   margin: auto 0;
 }
 
-.logo h2 > span {
-  font-size: 26px;
+.logo span {
+  font-size: 0.5em;
 }
 
 .main_right {
@@ -321,22 +317,24 @@ body {
 }
 
 .basket {
-  width: 30px;
-  height: 30px;
+  width: 4em;
+  height: 4em;
   border: 2px solid blue;
   border-radius: 50%;
-  margin-right: 20px;
-  margin-left: 15px;
+  margin-right: 0.9166em;
+  margin-left: 0.9166em;
 }
 
 .basket span {
   display: block;
-  line-height: 30px;
+  line-height: 4em;
   text-align: center;
 }
 
 .main {
   width: 55%;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .main ul {
@@ -344,7 +342,7 @@ body {
 }
 
 .main li {
-  margin-right: 55px;
+  margin-right: 4.583em;
 }
 
 .main li:last-child {
@@ -379,24 +377,28 @@ body {
 }
 
 .products {
-  margin-top: 94px;
-  margin-bottom: 60px;
+  margin-top: 82px;
+  margin-bottom: 57px;
 }
 
 .products h1 {
   font-family: 'Playfair Display', serif;
   font-size: 58px;
   text-align: center;
-  margin-bottom: 58px;
+  margin-bottom: 53px;
 }
 
 .products ul {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 47px;
 }
 
 .products ul li {
-  padding-right: 55px;
+  margin-right: 55px;
+}
+
+.products ul li:last-child {
+  margin-right: 0;
 }
 
 .products ul a {
@@ -451,7 +453,7 @@ body {
   font-size: 16px;
   line-height: 1.25;
   text-align: center;
-  margin-top: 25px;
+  margin-top: 22px;
 }
 
 .product_list .product_list_item img {
@@ -465,7 +467,7 @@ body {
   font-family: 'lato', serif;
   font-size: 16px;
   line-height: 1.25;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .product_list .product_list_item .price_box .regular-price {
@@ -519,17 +521,17 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 38px;
   color: #fff;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 18px;
+  margin-bottom: 29px;
   line-height: 1;
 }
 
 .subscribe .form_email {
   margin: auto;
-  width: 250px;
+  width: 278px;
   border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 50px;
-  padding: 13px 24px;
+  padding: 13px 10px;
   display: block;
   color: #fff;
 }
@@ -548,7 +550,7 @@ footer .menu {
   height: 100px;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 60%;
+  width: 62%;
   float: left;
 }
 
@@ -575,7 +577,7 @@ footer .menu_right {
   justify-content: flex-end;
   color: inherit;
   float: left;
-  width: 24%;
+  width: 20%;
   display: -ms-flexbox;
   display: flex;
   height: 100px;
@@ -626,7 +628,7 @@ select {
 
 .load_link {
   text-align: center;
-  margin-top: 58px;
+  margin-top: 19px;
 }
 
 .load_link a {
@@ -656,7 +658,7 @@ input[type='email'] {
   font-weight: bold;
   line-height: 1.667;
   background-color: transparent;
-  width: 226px;
+  width: 248px;
 }
 
 ::-webkit-input-placeholder {
@@ -692,7 +694,7 @@ input[type='email'] {
 input[type='submit'] {
   background: url(../img/right.png) no-repeat;
   border: none;
-  width: 20px;
+  width: 10px;
   vertical-align: middle;
 }
 
@@ -746,6 +748,7 @@ input[type="search"]::-webkit-search-decoration {
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
+  border: 0;
   padding: 0;
 }
 
